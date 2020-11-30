@@ -3,7 +3,6 @@ import 'package:todoey_flutter/widgets/tasks_list.dart';
 import 'add_task_screen.dart';
 
 class TasksScreen extends StatelessWidget {
-  bool v1 = false, v2 = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
