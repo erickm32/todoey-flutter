@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class TaskTile extends StatelessWidget {
-  bool isChecked = false;
-  String text;
-  Function onChanged;
+  final bool isChecked;
+  final String text;
+  final Function onChanged;
 
   TaskTile({this.text, this.isChecked, this.onChanged});
 
